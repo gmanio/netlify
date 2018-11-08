@@ -1,0 +1,19 @@
+{
+  "type": "mysql",
+  "host": "49.236.147.142",
+  "port": 3306,
+  "username": "root",
+  "password": "wlakscjs87",
+  "database": "employees",
+  "synchronize": true,
+  "logging": false,
+  "entities": [
+    "src/entity/**/*.ts"
+  ],
+  "migrations": [
+    "src/migration/**/*.ts"
+  ],
+  "subscribers": [
+    "src/subscriber/**/*.ts"
+  ]
+}
