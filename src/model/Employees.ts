@@ -7,7 +7,7 @@ export class Employees {
   @PrimaryColumn()
   emp_no: number;
 
-  @Column('date', { name: 'birth_date' })
+  @Column('date')
   birth_date: Date;
 
   @Column("varchar")
